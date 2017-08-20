@@ -68,6 +68,7 @@ public class Car implements Vehicle {
         /*
         this is how we calculate the available fuel for the car, the consumptionPerGear represents the
         consumption for the current gear
+
          */
        this.availableFuel = this.availableFuel - currentConsumptionPerGear.calculate(consumptionPerGear, km,100);
        /*
